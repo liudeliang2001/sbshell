@@ -26,15 +26,15 @@
       {
         "tag": "dns_direct",
         "address": "219.147.198.230",
-        "address_strategy": "prefer_ipv4",
-        "strategy": "prefer_ipv4",
+        "address_strategy": "only_ipv4",
+        "strategy": "only_ipv4",
         "detour": "🎯 全球直连"
       },
       {
         "tag": "dns_proxy",
         "address": "tls://8.8.8.8",
         "address_strategy": "prefer_ipv4",
-        "strategy": "prefer_ipv4",
+        "strategy": "only_ipv4",
         "detour": "🚀 节点选择"
       }
     ],
